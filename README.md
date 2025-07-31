@@ -13,3 +13,4 @@ The location of services was originally sourced from the ODS Access Database of 
 The time to service was calculated using Routino Open Source software (www.routino.org) to find the shortest path between the population weighted centroid of each postcode (Daras et al, 2019) and aggregated to the spatial scale of Lower Super Output Area (LSOA) using the mean value. 
 Two points of note on this dataset is that hospitals were only included if an A&E was present to remove specialist or referral facilities and Leisure centers were included as a health service due to the direct positive effect these have on personal health (Darras et al, 2019). 
 
+(land-registry-house-prices-Meidan-LSOA.csv)
