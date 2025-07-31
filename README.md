@@ -10,7 +10,7 @@ As a result, it is the aim of this investigation to explore how median property 
 ### Data
 Four datasets are included in this report.
 
-First, [‘ahah_v4.csv’](ahah_v4.csv) is a CSV file of open data on distance to health-related services in Great Britain  Accessed July 2025 the data the data frame consists of 14 services that may affect health and an appropriate value. The variables selected for this investigation were those directly linked to health services, these include Dentists (ah4dent), Pharmacies (ah4phar) , Hospitals (ah4hosp), GPs (ah4gp), Leisure Centers (ah4leis).
+First, [‘ahah_v4.csv’](ahah_v4.csv) is a CSV file of open data on distance to health-related services in Great Britain  Accessed July 2025 the data the data frame consists of 14 services that may affect health and an appropriate value. The variables selected for this investigation were those directly linked to health services, these include Dentists (ah4dent), Pharmacies (ah4phar) , Hospitals (ah4hosp), GPs (ah4gp), and Leisure Centers (ah4leis).
 
 The location of services was originally sourced from the ODS Access Database of NHS Digital and a local data company for Leisure centers and collated by Geographic Data service (https://data.geods.ac.uk/). Version 4 was used which included the most up to date data released in 2024.
 
