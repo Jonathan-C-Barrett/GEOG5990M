@@ -1,5 +1,5 @@
 # GEOG5990M Final Project
-## Health and Wealth. An investigation into the correlation between property value and access to Health Service in London 
+## Health and Wealth. An investigation into the correlation between property value and access to Health Services in London 
 
 ### Project Rational
 Equity of access has been a focus of the NHS since it began in 1948 (Goodard and Smith, 2001) and with most research suggesting that low income has a direct correlation with heath care utilization (Copper et al, 2012), It is clear that lower socio-economic areas require improved access to support its populations. In contrast to this, property value has been shown to increase with proximity to local services, including hospitals and other health care services (Chen et al, 2022), making areas that provide the most support less accessible to the communities that need them most. 
@@ -17,7 +17,7 @@ Two points of note on this dataset is that hospitals were only included if an A&
 The second data set [‘land-registry-house-price-Median-LSOA.csv’](land-registry-house-prices-Meidan-LSOA.csv) provides the median value of property in a csv format (Ref).  This was originally calculated from price paid data published on the Land Registry Website. This was then aggregated to the LSOA level by London Data Store. Median was chosen as when dealing with house price that generally exhibit extreme values it is a more recognized metric in this field (Vaidynathan, D et al, 2023) 
 The dataset spans the period of 1995 to 2017, however in this investigation the year of 2016 was used as this provides the most complete data. Spatial extent is limited to only London boroughs.  The data was published in August 2018 and access July 2025.  
 
-As the property value data was created before 2021 the data used 2011 LSOA classification codes and so the conversion csv file ‘LSOA_(2011)_to_LSOA_(2021)_to_Local_Authority_District_(2022)_Best_Fit_Lookup_for_EW_(V2).csv’ was used (ref) to as accurately as possible convert these to a code that could be combined across data sets. This was published August 23,2022 and accessed July 2025.
+As the property value data was created before 2021 the data used 2011 LSOA classification codes and so the conversion csv file [‘LSOA_(2011)_to_LSOA_(2021)_to_Local_Authority_District_(2022)_Best_Fit_Lookup_for_EW_(V2).csv’](LSOA_(2011)_to_LSOA_(2021)_to_Local_Authority_District_(2022)_Best_Fit_Lookup_for_EW_(V2).csv) was used to as accurately as possible convert these to a code that could be combined across data sets. This was published August 23,2022 and accessed July 2025.
 
 Finally, an Administrative Boundaries Geojson file ‘Local_Authority_Districts_May_2024_Boundaries_UK_BFE_2410925873296837173.geojson’ was used from the Office for National Statistics. The 2024 version of digital vector boundaries was published on July 2, 2024. This database contained Local Area District (LAD) boundaries as this spatial scale was deemed more appropriate for purpose and detail. 
 
