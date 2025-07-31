@@ -19,7 +19,7 @@ The dataset spans the period of 1995 to 2017, however in this investigation the 
 
 As the property value data was created before 2021 the data used 2011 LSOA classification codes and so the conversion csv file [‘LSOA_(2011)_to_LSOA_(2021)_to_Local_Authority_District_(2022)_Best_Fit_Lookup_for_EW_(V2).csv’](LSOA_(2011)_to_LSOA_(2021)_to_Local_Authority_District_(2022)_Best_Fit_Lookup_for_EW_(V2).csv) was used to as accurately as possible convert these to a code that could be combined across data sets. This was published August 23,2022 and accessed July 2025.
 
-Finally, an Administrative Boundaries Geojson file ‘Local_Authority_Districts_May_2024_Boundaries_UK_BFE_2410925873296837173.geojson’ was used from the Office for National Statistics. The 2024 version of digital vector boundaries was published on July 2, 2024. This database contained Local Area District (LAD) boundaries as this spatial scale was deemed more appropriate for purpose and detail. 
+Finally, an Administrative Boundaries Geojson file [‘Local_Authority_Districts_May_2024_Boundaries_UK_BFE_2410925873296837173.geojson’](Local_Authority_Districts_May_2024_Boundaries_UK_BFE_2410925873296837173.geojson) was used from the Office for National Statistics. The 2024 version of digital vector boundaries was published on July 2, 2024. This database contained Local Area District (LAD) boundaries as this spatial scale was deemed more appropriate for purpose and detail. 
 
 
 (land-registry-house-prices-Meidan-LSOA.csv)
